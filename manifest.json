@@ -1,0 +1,26 @@
+{
+  "name": "test-cookie-check",
+  "version": "1.0",
+  "description": "联调cookie检测",
+  "manifest_version": 2,
+  "permissions": ["declarativeContent", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/logo.png",
+      "32": "assets/logo.png",
+      "48": "assets/logo.png",
+      "128": "assets/logo.png"
+    }
+  },
+  "icons": {
+    "16": "assets/logo.png",
+    "32": "assets/logo.png",
+    "48": "assets/logo.png",
+    "128": "assets/logo.png"
+  }
+}
